@@ -7,6 +7,10 @@ redirect_from:
   - /services
 ---
 <style>
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+}
 .services-page, 
 .services-page * {
   font-family: "Times New Roman", Times, serif;
@@ -105,4 +109,33 @@ redirect_from:
   Detailed contest participation records will be updated soon.
 </p>
 
+<hr style="margin:40px 0;">
+
+<h2>🚀 Recent Open-Source Contribution</h2>
+
+<div style="
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #6a0dad;
+  padding: 20px 24px;
+  border-radius: 12px;
+  background: #fcfcff;
+  margin-top: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+">
+
+  <p style="margin:0 0 8px 0; font-size:1.08rem;">
+    <strong style="color:#d90429;">[February 2026]</strong> —
+    Successfully contributed to 
+    <strong style="color:#6a0dad;">Project MONAI</strong>, a widely used medical imaging AI framework 
+    supported by NVIDIA and global research institutions.
+  </p>
+
+  <p style="margin:0 0 8px 0;">
+    Resolved documentation inconsistencies in <strong>PerceptualLoss</strong> (Issue #8592), 
+    improving clarity and developer usability for research applications.
+  </p>
+
+  
+
+</div>
 </div>

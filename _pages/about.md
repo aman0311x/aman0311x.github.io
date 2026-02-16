@@ -99,6 +99,7 @@ Currently, I am in my final year, specializing in Image Processing for my thesis
 
 <div style="margin-top: 20px; line-height: 1.75; font-size: 1.02rem;">
 
+<div style="margin-bottom: 18px;">
 📰 <strong><span style="color: red;">[February 2026]</span></strong> — 
 Abstract accepted for a book chapter in 
 <em>
@@ -109,10 +110,17 @@ Abstract accepted for a book chapter in
 (<span style="color: #1f77b4; font-weight: 500;">
 Routledge, Taylor & Francis Group
 </span>).
+</div>
 
-<br>
-
-
+<div style="margin-top: 18px;">
+📰 <strong><span style="color: red;">[February 2026]</span></strong> — 
+Successfully contributed to the open-source medical imaging framework 
+<em>
+<span style="color: #6a0dad; font-weight: 600;">
+MONAI (Medical Open Network for AI)
+</span>
+</em>.
+</div>
 
 </div>
 
