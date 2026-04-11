@@ -17,8 +17,11 @@ redirect_from:
   --radius: 18px;
 }
 body {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 550;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #000;
 }
 
 /* Paragraph styling for elegance */

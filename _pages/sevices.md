@@ -8,8 +8,11 @@ redirect_from:
 ---
 <style>
 body {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 550;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #000;
 }
 .services-page, 
 .services-page * {

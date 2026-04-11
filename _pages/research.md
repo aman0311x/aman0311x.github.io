@@ -69,7 +69,7 @@ In this context, we developed a hybrid framework that simultaneously handles seg
   <li>
     <span class="paper-title">HyFormer-Net: A Synergistic CNN-Transformer with Interpretable Multi-Scale Fusion for Breast Lesion Segmentation and Classification in Ultrasound Images.</span> 
     Mohammad Amanour Rahman. 
-    <span class="paper-venue">arXiv preprint arXiv:2511.01013 (2025).</span> 
+    <span class="paper-venue">[Under Review]</span> 
     <a href="https://arxiv.org/abs/2511.01013" class="pdf-link">[PDF]</a>
   </li>
 </ul>
