@@ -35,6 +35,10 @@ author_profile: true
     color: #008000; /* Green */
     font-style: italic;
   }
+  .paper-venue-review {
+    color: #d35400; /* Orange for Under Review */
+    font-style: italic;
+  }
   .pdf-link {
     color: #337ab7; /* Blue */
     text-decoration: none;
@@ -48,29 +52,42 @@ author_profile: true
     padding-left: 20px;
   }
   .paper-list li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 </style>
 
 <div class="research-body">
 
-My research focuses on the intersection of artificial intelligence and healthcare, particularly in Medical Image Analysis and Explainable AI (XAI). I work on developing reliable and transparent deep learning models that can support real-world clinical decision-making.
-I am also interested in building trustworthy and secure medical AI systems, ensuring that these technologies are robust, safe, and suitable for practical healthcare use. The key areas I have explored or am currently working on are listed below.
+My research focuses on the intersection of artificial intelligence and healthcare, particularly in Medical Image Analysis and Explainable AI (XAI). I work on developing reliable and transparent deep learning models that can support real-world clinical decision-making. I am also interested in building trustworthy and secure medical AI systems, ensuring that these technologies are robust, safe, and suitable for practical healthcare use. The key areas I have explored or am currently working on are listed below.
 
 <div class="section-heading">1. Medical Image Analysis & Explainable AI (XAI)</div>
 
-Medical Image Analysis involves leveraging artificial intelligence to interpret complex clinical scans such as ultrasounds, MRIs, and CTs. The core objectives in this domain include detection, segmentation, and classification. A significant hurdle in this field is dataset variability; models often suffer from "domain shift" when applied to new, unseen datasets.
-Furthermore, clinical adoption of AI is strictly bottlenecked by the "black box" nature of deep learning. Explainable AI (XAI) addresses this by providing transparent reasoning behind AI predictions. XAI techniques range from post-hoc visualizers (like Grad-CAM) to intrinsic methods (like attention maps built directly into the model's architecture). My research integrates these paradigms to build highly accurate, robust, and trustworthy diagnostic systems.
-In this context, we developed a hybrid framework that simultaneously handles segmentation and classification while utilizing a dual-pipeline XAI approach to quantitatively validate the model's internal reasoning against clinical ground truth.
+Medical Image Analysis leverages artificial intelligence to interpret complex clinical scans (such as Ultrasounds, MRIs, and CTs) to automate and enhance diagnostic tasks like lesion detection, segmentation, and disease classification. This field is crucial for accelerating early diagnosis, reducing clinical workloads, and minimizing human error in healthcare. 
+
+However, the practical adoption of these AI systems is severely bottlenecked by two major challenges. First, models often suffer from "domain shift," failing to generalize across diverse datasets captured by different hospital machines. Second, traditional deep learning models operate as "black boxes," providing predictions without transparent reasoning. Explainable AI (XAI) is essential to address this trust deficit. While some visualizers exist, the field currently lacks robust, intrinsically interpretable models that can provide quantitative, clinically aligned reasoning. Without solving these lackings of generalization and transparency, AI cannot be safely deployed in real-world clinical decision-making.
 
 <span class="related-paper-heading">Related Paper:</span>
-
 <ul class="paper-list">
   <li>
     <span class="paper-title">HyFormer-Net: A Synergistic CNN-Transformer with Interpretable Multi-Scale Fusion for Breast Lesion Segmentation and Classification in Ultrasound Images.</span> 
     Mohammad Amanour Rahman. 
     <span class="paper-venue">[Under Review]</span> 
     <a href="https://arxiv.org/abs/2511.01013" class="pdf-link">[PDF]</a>
+  </li>
+</ul>
+
+<div class="section-heading">2. Federated Learning & Privacy-Preserving Medical AI</div>
+
+Federated Learning (FL) is a decentralized machine learning paradigm that enables multiple healthcare institutions to collaboratively train robust AI models without ever sharing or transferring raw patient data. In the medical domain, where diagnostic data is highly sensitive and protected by strict privacy regulations (such as HIPAA), FL is paramount. It allows the creation of generalized, unbiased algorithms by learning from a diverse, multi-institutional population while keeping patient records strictly within the hospital firewalls.
+
+Despite its immense potential, Privacy-Preserving Medical AI faces significant limitations. The inherent heterogeneity of data across different clinics makes model convergence and cross-site consistency extremely difficult. Furthermore, maintaining the interpretability of models within a decentralized network remains a critical lacking. The field currently struggles to resolve the trilemma of ensuring strict data privacy (e.g., through differential privacy), maintaining high diagnostic performance, and providing consistent, trustworthy clinical explanations across diverse healthcare silos. Overcoming these barriers is essential for scaling collaborative medical AI.
+
+<span class="related-paper-heading">Related Paper:</span>
+<ul class="paper-list">
+  <li>
+    <span class="paper-title">FedXAI: Privacy-Preserving Federated Learning with Intrinsic Explainability for Medical Imaging.</span> 
+    Mohammad Amanour Rahman. 
+    <span class="paper-venue-review">[Under Review]</span> 
   </li>
 </ul>
 
