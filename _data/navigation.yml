@@ -7,14 +7,13 @@
 main:
   - title: "Home"
     url: /
-  - title: "Publications"
-    url: /publications/
   - title: "Research"
     url: /research/
+  - title: "Publications"
+    url: /publications/
   - title: "Services"
     url: /services/
   - title: "Education"
     url: /education/
   - title: "Projects"
     url: /projects/
-
