@@ -97,34 +97,62 @@ Currently, I am in my final year, specializing in Image Processing for my thesis
 <div style="height: 2cm;"></div>
 
 
-# 📰 Recent News
+<style>
+  .news-body {
+    /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 1.75;
+    color: #000;
+  }
+  .news-body ul {
+    list-style: disc;
+    padding-left: 25px;
+    margin-top: 10px;
+  }
+  .news-body ul li {
+    margin-bottom: 10px;
+  }
+  .news-date {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+
+.news-paper,
+.news-paper:link,
+.news-paper:visited,
+.news-paper:hover,
+.news-paper:active,
+.news-paper:focus {
+    color: #1a6fa8;
+    text-decoration: none !important;
+}
+
+.news-venue {
+    color: #1a6fa8;
+    font-style: italic;
+}
 
 
-<div style="margin-top: 20px; line-height: 1.75; font-size: 1.02rem;">
+</style>
 
-<div style="margin-bottom: 18px;">
-📰 <strong><span style="color: red;">[February 2026]</span></strong> — 
-Abstract accepted for a book chapter in 
-<em>
-<span style="color: #6a0dad; font-weight: 600;">
-“AI for Medical Imaging and Precision Diagnostics: From Theory to Practice”
-</span>
-</em> 
-(<span style="color: #1f77b4; font-weight: 500;">
-Routledge, Taylor & Francis Group
-</span>).
+<div class="news-body">
+  <ul>
+    <li>
+      <span class="news-date">[June 2026]</span>
+      <a href="https://doi.org/10.1016/j.ibmed.2026.100413" class="news-paper">HyFormer-Net for Breast Lesion Analysis</a>
+      got published in <span class="news-venue">Intelligence-Based Medicine (Elsevier)</span>!
+    </li>
+    <li>
+      <span class="news-date">[February 2026]</span>
+      Abstract accepted for a book chapter in
+      <span class="news-venue">AI for Medical Imaging and Precision Diagnostics: From Theory to Practice</span>
+      (<span class="news-venue">Routledge, Taylor &amp; Francis Group</span>)!
+    </li>
+    <li>
+      <span class="news-date">[February 2026]</span>
+      Successfully contributed to the open-source medical imaging framework
+      <span class="news-venue">MONAI (Medical Open Network for AI)</span>!
+    </li>
+  </ul>
 </div>
-
-<div style="margin-top: 18px;">
-📰 <strong><span style="color: red;">[February 2026]</span></strong> — 
-Successfully contributed to the open-source medical imaging framework 
-<em>
-<span style="color: #6a0dad; font-weight: 600;">
-MONAI (Medical Open Network for AI)
-</span>
-</em>.
-</div>
-
-</div>
-
-
