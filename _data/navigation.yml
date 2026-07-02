@@ -17,3 +17,5 @@ main:
     url: /education/
   - title: "Projects"
     url: /projects/
+  - title: "Resume"
+    url: /resume/

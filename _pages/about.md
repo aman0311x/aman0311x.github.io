@@ -139,20 +139,42 @@ Currently, I am in my final year, specializing in Image Processing for my thesis
 <div class="news-body">
   <ul>
     <li>
+      <span class="news-date">[July 2026]</span>
+      <a href="https://doi.org/10.1016/j.array.2026.101058" class="news-paper">
+        Spectral-Spatial Mamba with Uncertainty-Guided Refinement for Thyroid Nodule Diagnosis
+      </a>
+      got published in <span class="news-venue">Array (Elsevier)</span>!
+    </li>
+
+    <li>
       <span class="news-date">[June 2026]</span>
-      <a href="https://doi.org/10.1016/j.ibmed.2026.100413" class="news-paper">HyFormer-Net for Breast Lesion Analysis</a>
+      <a href="https://doi.org/10.1016/j.ibmed.2026.100413" class="news-paper">
+        HyFormer-Net for Breast Lesion Analysis
+      </a>
       got published in <span class="news-venue">Intelligence-Based Medicine (Elsevier)</span>!
     </li>
+
+    <li>
+      <span class="news-date">[June 2026]</span>
+      <a href="#" class="news-paper">
+        MedSaab-US: A Backpropagation-Free Multi-Scale Wavelet-Saab Framework for Thyroid Nodule Segmentation in Ultrasound Images
+      </a>
+      was accepted at <span class="news-venue">IEEE ICIP 2026 Satellite Workshop</span>!
+    </li>
+
+    <li>
+      <span class="news-date">[June 2026]</span>
+      <a href="#" class="news-paper">
+        RadiomicNet: A Hybrid Radiomics-Guided Lightweight Architecture for Interpretable Medical Image Segmentation
+      </a>
+      was accepted at <span class="news-venue">IEEE ICIP 2026 Satellite Workshop</span>!
+    </li>
+
     <li>
       <span class="news-date">[February 2026]</span>
       Abstract accepted for a book chapter in
       <span class="news-venue">AI for Medical Imaging and Precision Diagnostics: From Theory to Practice</span>
       (<span class="news-venue">Routledge, Taylor &amp; Francis Group</span>)!
-    </li>
-    <li>
-      <span class="news-date">[February 2026]</span>
-      Successfully contributed to the open-source medical imaging framework
-      <span class="news-venue">MONAI (Medical Open Network for AI)</span>!
     </li>
   </ul>
 </div>

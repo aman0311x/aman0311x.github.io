@@ -64,6 +64,13 @@ However, the practical adoption of these AI systems is severely bottlenecked by 
 <span class="related-paper-heading">Related Paper:</span>
 <ul class="paper-list">
   <li>
+    <span class="paper-title">Spectral-Spatial Mamba with Uncertainty-Guided Refinement for Thyroid Nodule Diagnosis.</span>
+    Mohammad Amanour Rahman, Rowzatul Zannath Prerona.
+    <span class="paper-venue">[Array, Elsevier, 2026]</span>
+    <a href="https://doi.org/10.1016/j.array.2026.101058" class="pdf-link">[Link]</a>
+  </li>
+
+  <li>
     <span class="paper-title">HyFormer-Net: A Synergistic CNN-Transformer with Interpretable Multi-Scale Fusion for Breast Lesion Segmentation and Classification in Ultrasound Images.</span>
     Mohammad Amanour Rahman.
     <span class="paper-venue">[Intelligence-Based Medicine, Elsevier, 2026]</span>
