@@ -88,4 +88,22 @@ Despite its immense potential, Privacy-Preserving Medical AI faces significant l
     <span class="paper-venue-review">[Under Review]</span>
   </li>
 </ul>
+
+<div class="section-heading">3. Beyond Deep Learning: Interpretable & Lightweight Learning</div>
+Modern deep learning, despite its remarkable achievements, suffers from fundamental limitations — mathematical intractability, high data dependency, vulnerability to adversarial inputs, and large model footprints that hinder edge deployment. Green Learning and related non-deep paradigms seek to overcome these barriers by designing learning systems that are inherently interpretable, computationally efficient, and deployable under constrained resources. This line of research explores alternative machine learning paradigms — including backpropagation-free Saab transforms, radiomics-guided attention, and handcrafted feature integration — that offer transparent decision-making without sacrificing predictive performance, making them particularly suitable for safety-critical domains such as medical imaging.
+<span class="related-paper-heading">Related Papers:</span>
+<ul class="paper-list">
+  <li>
+    <span class="paper-title">MedSaab-US: A Backpropagation-Free Multi-Scale Wavelet-Saab Framework for Thyroid Nodule Segmentation in Ultrasound Images.</span>
+    Mohammad Amanour Rahman.
+    <span class="paper-venue">[ICIP 2026 LBDL II Workshop,  2026]</span>
+    <a href="https://doi.org/10.48550/arXiv.2607.02209" class="pdf-link">[arXiv]</a>
+  </li>
+  <li>
+    <span class="paper-title">RadiomicNet: A Hybrid Radiomics-Guided Lightweight Architecture for Interpretable Medical Image Segmentation.</span>
+    Mohammad Amanour Rahman.
+    <span class="paper-venue">[ICIP 2026 LBDL II Workshop,  2026]</span>
+    <a href="https://doi.org/10.48550/arXiv.2607.02185" class="pdf-link">[arXiv]</a>
+  </li>
+</ul>
 </div>

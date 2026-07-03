@@ -194,24 +194,68 @@ author_profile: true
   <div class="pub-entry">
     <p class="pub-row" style="margin-bottom: 3px;">
       📌
-      <span class="pub-title">
+      <a href="https://doi.org/10.48550/arXiv.2607.02209" class="pub-title">
         MedSaab-US: A Backpropagation-Free Multi-Scale Wavelet-Saab Framework for Thyroid Nodule Segmentation in Ultrasound Images
-      </span>
+      </a>
       <span class="pub-badge badge-accepted">(Accepted)</span>
     </p>
     <p class="pub-row"><b>Authors:</b> <span class="pub-me">Mohammad Amanour Rahman</span></p>
-    <p class="pub-row"><b>Conference:</b> <span class="pub-journal">IEEE ICIP 2026 Satellite Workshop</span></p>
+    <p class="pub-row">
+      <b>Workshop:</b>
+      <span class="pub-journal">IEEE ICIP 2026 LBDL II Workshop</span>
+      (<a href="https://arxiv.org/abs/2607.02209" class="pub-venue-link">arXiv:2607.02209</a>)
+    </p>
+    <div class="pub-links">
+      [<a onclick="var x=document.getElementById('abs-medsaab');x.style.display=x.style.display==='none'?'block':'none';" class="abs-toggle">Abstract</a>]
+      [<a href="https://arxiv.org/abs/2607.02209">PDF</a>]
+      [<a onclick="var y=document.getElementById('cite-medsaab');y.style.display=y.style.display==='none'?'block':'none';" style="cursor:pointer;">Citation bib</a>]
+    </div>
+    <div id="abs-medsaab" class="abs-box">
+      Deep learning methods dominate thyroid nodule segmentation in ultrasound images, achieving high Dice scores but at the cost of millions of parameters, GPU-dependent training via backpropagation, and limited mathematical tractability. We propose MedSaab-US, a backpropagation-free segmentation framework grounded in the Green Learning paradigm. MedSaab-US extracts multi-scale spatial-frequency features by combining multi-level Discrete Wavelet Transform (DWT) with multi-scale channel-wise Saab transforms at patch sizes of 5×5, 11×11, and 21×21 pixels. Label-Assisted Greedy (LAG) feature selection retains the most discriminative features, which are fed to an XGBoost classifier for pixel-wise prediction. Evaluated on the TN3K dataset (2,879 training and 614 test images), MedSaab-US achieves a mean Dice coefficient of 0.4784 ± 0.2190 with a model footprint under 500K parameters and CPU-only inference in approximately 0.3 seconds per image.
+    </div>
+    <div id="cite-medsaab" class="cite-box">
+      <b>Cite as:</b><br>
+      @article{rahman2026medsaabus,<br>
+      &nbsp;&nbsp;title={MedSaab-US: A Backpropagation-Free Multi-Scale Wavelet-Saab Framework for Thyroid Nodule Segmentation in Ultrasound Images},<br>
+      &nbsp;&nbsp;author={Rahman, Mohammad Amanour},<br>
+      &nbsp;&nbsp;journal={arXiv preprint arXiv:2607.02209},<br>
+      &nbsp;&nbsp;year={2026},<br>
+      &nbsp;&nbsp;note={Accepted at IEEE ICIP 2026 LBDL II Workshop}<br>
+      }
+    </div>
   </div>
   <!-- RadiomicNet - Workshop -->
   <div class="pub-entry">
     <p class="pub-row" style="margin-bottom: 3px;">
       📌
-      <span class="pub-title">
+      <a href="https://doi.org/10.48550/arXiv.2607.02185" class="pub-title">
         RadiomicNet: A Hybrid Radiomics-Guided Lightweight Architecture for Interpretable Medical Image Segmentation
-      </span>
+      </a>
       <span class="pub-badge badge-accepted">(Accepted)</span>
     </p>
     <p class="pub-row"><b>Authors:</b> <span class="pub-me">Mohammad Amanour Rahman</span></p>
-    <p class="pub-row"><b>Conference:</b> <span class="pub-journal">IEEE ICIP 2026 Satellite Workshop</span></p>
+    <p class="pub-row">
+      <b>Workshop:</b>
+      <span class="pub-journal">IEEE ICIP 2026 LBDL II Workshop</span>
+      (<a href="https://arxiv.org/abs/2607.02185" class="pub-venue-link">arXiv:2607.02185</a>)
+    </p>
+    <div class="pub-links">
+      [<a onclick="var x=document.getElementById('abs-radiomicnet');x.style.display=x.style.display==='none'?'block':'none';" class="abs-toggle">Abstract</a>]
+      [<a href="https://arxiv.org/abs/2607.02185">PDF</a>]
+      [<a onclick="var y=document.getElementById('cite-radiomicnet');y.style.display=y.style.display==='none'?'block':'none';" style="cursor:pointer;">Citation bib</a>]
+    </div>
+    <div id="abs-radiomicnet" class="abs-box">
+      Deep learning has achieved remarkable performance in medical image segmentation, yet it suffers from critical limitations: mathematical intractability, substantial parameter requirements, and lack of clinical interpretability. We propose RadiomicNet, a novel two-stream hybrid architecture that enhances standard deep learning by integrating handcrafted radiomics features directly into the segmentation learning process. The key contribution is the Radiomics Attention Gate (RAG), which leverages Gray-Level Co-occurrence Matrix (GLCM) and Local Binary Pattern (LBP) features to modulate skip-connection attention in a lightweight MobileNetV2-based encoder-decoder, providing ante-hoc interpretability without post-hoc approximations. RadiomicNet achieves a DSC of 0.763 ± 0.231 on BUSI and 0.854 ± 0.112 on Kvasir-SEG, outperforming U-KAN by 1.2% and 1.8% respectively, with only 3.27M parameters.
+    </div>
+    <div id="cite-radiomicnet" class="cite-box">
+      <b>Cite as:</b><br>
+      @article{rahman2026radiomicnet,<br>
+      &nbsp;&nbsp;title={RadiomicNet: A Hybrid Radiomics-Guided Lightweight Architecture for Interpretable Medical Image Segmentation},<br>
+      &nbsp;&nbsp;author={Rahman, Mohammad Amanour},<br>
+      &nbsp;&nbsp;journal={arXiv preprint arXiv:2607.02185},<br>
+      &nbsp;&nbsp;year={2026},<br>
+      &nbsp;&nbsp;note={Accepted at IEEE ICIP 2026 LBDL II Workshop}<br>
+      }
+    </div>
   </div>
 </div>
