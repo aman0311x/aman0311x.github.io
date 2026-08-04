@@ -138,6 +138,22 @@ Currently, I am in my final year, specializing in Image Processing for my thesis
 
 <div class="news-body">
   <ul>
+
+    <li>
+  <span class="news-date">[August 2026]</span>
+  <a href="https://doi.org/10.48550/arXiv.2608.01518" class="news-paper">
+    UCBound-Net: Uncertainty-Guided Boundary-Aware Continual Learning for Domain-Incremental Ultrasound Segmentation
+  </a>
+  was accepted at <span class="news-venue">MICCAI 2026 CLiMeM Workshop</span>!
+</li>
+
+<li>
+  <span class="news-date">[July 2026]</span>
+  <a href="https://doi.org/10.1049/ipr2.70445" class="news-paper">
+    TCB-Net: Topology-Constrained Boundary-Interior Decoupled Network for Breast Ultrasound Lesion Segmentation
+  </a>
+  got published in <span class="news-venue">IET Image Processing</span>!
+</li>
     <li>
       <span class="news-date">[July 2026]</span>
       <a href="https://doi.org/10.1016/j.array.2026.101058" class="news-paper">

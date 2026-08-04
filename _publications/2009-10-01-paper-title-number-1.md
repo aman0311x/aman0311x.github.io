@@ -190,6 +190,47 @@ author_profile: true
       }
     </div>
   </div>
+  <!-- TCB-Net - Accepted -->
+<div class="pub-entry">
+  <p class="pub-row" style="margin-bottom: 3px;">
+    📌
+    <span class="pub-title">
+      TCB-Net: Topology-Constrained Boundary-Interior Decoupled Network for Breast Ultrasound Lesion Segmentation
+    </span>
+    <span class="pub-badge badge-accepted">(Accepted)</span>
+  </p>
+
+  <p class="pub-row">
+    <b>Authors:</b>
+    <span class="pub-me">Mohammad Amanour Rahman</span>
+  </p>
+
+  <p class="pub-row">
+    <b>Journal:</b>
+    <span class="pub-journal">IET Image Processing</span>
+    (<a href="https://doi.org/10.1049/ipr2.70445" class="pub-venue-link">Wiley, 2026</a>)
+  </p>
+
+  <div class="pub-links">
+    [<a onclick="var x=document.getElementById('abs-tcb');x.style.display=x.style.display==='none'?'block':'none';" class="abs-toggle">Abstract</a>]
+    [<a onclick="var y=document.getElementById('cite-tcb');y.style.display=y.style.display==='none'?'block':'none';" style="cursor:pointer;">Citation bib</a>]
+  </div>
+
+  <div id="abs-tcb" class="abs-box">
+    TCB-Net introduces a topology-constrained boundary-interior decoupled architecture for breast ultrasound lesion segmentation. The framework combines a lesion-conditioned boundary attention gate, a boundary-interior decoupled decoder with morphology-derived supervision, and a cross-prediction geometric consistency loss incorporating a differentiable soft Euler-number regularizer. Extensive experiments on BUSI, UDIAT, and BUSBRA demonstrate improved topological consistency and clinically reliable boundary delineation compared with existing state-of-the-art methods.
+  </div>
+
+  <div id="cite-tcb" class="cite-box">
+    <b>Cite as:</b><br>
+    @article{rahman2026tcbnet,<br>
+    &nbsp;&nbsp;title={TCB-Net: Topology-Constrained Boundary-Interior Decoupled Network for Breast Ultrasound Lesion Segmentation},<br>
+    &nbsp;&nbsp;author={Rahman, Mohammad Amanour},<br>
+    &nbsp;&nbsp;journal={IET Image Processing},<br>
+    &nbsp;&nbsp;year={2026},<br>
+    &nbsp;&nbsp;note={Accepted for publication}<br>
+    }
+  </div>
+</div>
   <!-- MedSaab-US - Workshop -->
   <div class="pub-entry">
     <p class="pub-row" style="margin-bottom: 3px;">
@@ -223,6 +264,7 @@ author_profile: true
       &nbsp;&nbsp;note={Accepted at IEEE ICIP 2026 LBDL II Workshop}<br>
       }
     </div>
+    
   </div>
   <!-- RadiomicNet - Workshop -->
   <div class="pub-entry">
@@ -258,4 +300,46 @@ author_profile: true
       }
     </div>
   </div>
+  <!-- UCBound-Net - Workshop -->
+<div class="pub-entry">
+  <p class="pub-row" style="margin-bottom: 3px;">
+    📌
+    <a href="https://doi.org/10.48550/arXiv.2608.01518" class="pub-title">
+      UCBound-Net: Uncertainty-Guided Boundary-Aware Continual Learning for Domain-Incremental Ultrasound Segmentation
+    </a>
+    <span class="pub-badge badge-accepted">(Accepted)</span>
+  </p>
+
+  <p class="pub-row">
+    <b>Authors:</b>
+    <span class="pub-me">Mohammad Amanour Rahman</span>
+  </p>
+
+  <p class="pub-row">
+    <b>Workshop:</b>
+    <span class="pub-journal">MICCAI 2026 CLiMeM Workshop</span>
+    (<a href="https://arxiv.org/abs/2608.01518" class="pub-venue-link">arXiv:2608.01518</a>)
+  </p>
+
+  <div class="pub-links">
+    [<a onclick="var x=document.getElementById('abs-ucbound');x.style.display=x.style.display==='none'?'block':'none';" class="abs-toggle">Abstract</a>]
+    [<a href="https://arxiv.org/abs/2608.01518">PDF</a>]
+    [<a onclick="var y=document.getElementById('cite-ucbound');y.style.display=y.style.display==='none'?'block':'none';" style="cursor:pointer;">Citation bib</a>]
+  </div>
+
+  <div id="abs-ucbound" class="abs-box">
+    Continual learning in ultrasound image segmentation suffers from catastrophic forgetting when adapting to new anatomical domains. UCBound-Net introduces uncertainty-guided continual learning through three complementary components: uncertainty-weighted boundary distillation, uncertainty-calibration regularization, and uncertainty-guided exemplar selection. Using Monte Carlo Dropout as a spatial proxy for forgetting risk, the proposed framework improves knowledge retention across sequential breast and thyroid ultrasound segmentation tasks while requiring no task-boundary supervision.
+  </div>
+
+  <div id="cite-ucbound" class="cite-box">
+    <b>Cite as:</b><br>
+    @article{rahman2026ucboundnet,<br>
+    &nbsp;&nbsp;title={UCBound-Net: Uncertainty-Guided Boundary-Aware Continual Learning for Domain-Incremental Ultrasound Segmentation},<br>
+    &nbsp;&nbsp;author={Rahman, Mohammad Amanour},<br>
+    &nbsp;&nbsp;journal={arXiv preprint arXiv:2608.01518},<br>
+    &nbsp;&nbsp;year={2026},<br>
+    &nbsp;&nbsp;note={Accepted at the MICCAI 2026 CLiMeM Workshop}<br>
+    }
+  </div>
+</div>
 </div>

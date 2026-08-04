@@ -76,6 +76,12 @@ However, the practical adoption of these AI systems is severely bottlenecked by 
     <span class="paper-venue">[Intelligence-Based Medicine, Elsevier, 2026]</span>
     <a href="https://doi.org/10.1016/j.ibmed.2026.100413" class="pdf-link">[Link]</a>
   </li>
+  <li>
+  <span class="paper-title">TCB-Net: Topology-Constrained Boundary-Interior Decoupled Network for Breast Ultrasound Lesion Segmentation.</span>
+  Mohammad Amanour Rahman.
+  <span class="paper-venue">[IET Image Processing, Accepted, 2026]</span>
+  <a href="https://doi.org/10.1049/ipr2.70445" class="pdf-link">[Link]</a>
+</li>
 </ul>
 <div class="section-heading">2. Federated Learning & Privacy-Preserving Medical AI</div>
 Federated Learning (FL) is a decentralized machine learning paradigm that enables multiple healthcare institutions to collaboratively train robust AI models without ever sharing or transferring raw patient data. In the medical domain, where diagnostic data is highly sensitive and protected by strict privacy regulations (such as HIPAA), FL is paramount. It allows the creation of generalized, unbiased algorithms by learning from a diverse, multi-institutional population while keeping patient records strictly within the hospital firewalls.
@@ -104,6 +110,20 @@ Modern deep learning, despite its remarkable achievements, suffers from fundamen
     Mohammad Amanour Rahman.
     <span class="paper-venue">[ICIP 2026 LBDL II Workshop,  2026]</span>
     <a href="https://doi.org/10.48550/arXiv.2607.02185" class="pdf-link">[arXiv]</a>
+  </li>
+</ul>
+<div class="section-heading">4. Continual Learning for Medical AI</div>
+
+Continual learning enables artificial intelligence systems to acquire new medical knowledge over time without forgetting previously learned tasks, making it essential for long-term deployment in clinical environments where imaging protocols, scanners, and anatomical domains continually evolve. Unlike conventional deep learning models that require retraining from scratch, continual learning allows a single model to adapt incrementally while preserving prior knowledge. However, catastrophic forgetting remains the principal challenge, particularly in medical image segmentation where boundary precision and anatomical consistency are critical for clinical reliability. My research focuses on uncertainty-aware continual learning strategies that improve knowledge retention through uncertainty-guided distillation, calibration, and memory replay, enabling trustworthy lifelong medical AI systems.
+
+<span class="related-paper-heading">Related Paper:</span>
+
+<ul class="paper-list">
+  <li>
+    <span class="paper-title">UCBound-Net: Uncertainty-Guided Boundary-Aware Continual Learning for Domain-Incremental Ultrasound Segmentation.</span>
+    Mohammad Amanour Rahman.
+    <span class="paper-venue">[MICCAI 2026 CLiMeM Workshop, 2026]</span>
+    <a href="https://doi.org/10.48550/arXiv.2608.01518" class="pdf-link">[arXiv]</a>
   </li>
 </ul>
 </div>
